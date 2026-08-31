@@ -123,6 +123,29 @@ export default function Home() {
         <section className="flex flex-col gap-[clamp(9px,1.6vh,14px)]">
           <div className="flex items-center gap-3 pl-0.5">
             <span className="text-xs font-bold tracking-[0.2em] text-[#F7F5F0]/55 uppercase">
+              Actividades
+            </span>
+            <span className="h-px flex-1 bg-[#F7F5F0]/14" />
+          </div>
+
+          <PaymentLink
+            href="https://forms.gle/fAwRKzH6X1amKxQZ6"
+            title="Rifa curso LEAN MANUFECTURING"
+            subtitle="Formulario de participación"
+            variant="gold"
+          />
+
+          <PaymentLink
+            href="https://forms.gle/frtpVdGg2ogKEHBn6"
+            title="Paquete chapín"
+            subtitle="(Universidades Privadas)"
+            variant="outline"
+          />
+        </section>
+
+        <section className="flex flex-col gap-[clamp(9px,1.6vh,14px)]">
+          <div className="flex items-center gap-3 pl-0.5">
+            <span className="text-xs font-bold tracking-[0.2em] text-[#F7F5F0]/55 uppercase">
               Contacto
             </span>
             <span className="h-px flex-1 bg-[#F7F5F0]/14" />

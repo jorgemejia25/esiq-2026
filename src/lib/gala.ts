@@ -1,7 +1,5 @@
-const GALA_PAYMENTS_OPEN_DATE = "2026-08-24";
-const TIME_ZONE = "America/Guatemala";
+const GALA_PAYMENTS_OPEN_AT = new Date("2026-08-31T00:00:00-06:00").getTime();
 
 export function isGalaPaymentOpen(now: Date = new Date()): boolean {
-  const today = now.toLocaleDateString("en-CA", { timeZone: TIME_ZONE });
-  return today >= GALA_PAYMENTS_OPEN_DATE;
+  return now.getTime() >= GALA_PAYMENTS_OPEN_AT;
 }
