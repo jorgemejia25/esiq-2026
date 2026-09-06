@@ -96,20 +96,6 @@ export default function Home() {
             <span className="h-px flex-1 bg-[#F7F5F0]/14" />
           </div>
 
-          <PaymentLink
-            href="https://forms.gle/DpsjMigQopy7mHds7"
-            title="Pago si hiciste reserva"
-            subtitle="Formulario de pago · reserva confirmada"
-            variant="light"
-          />
-
-          <PaymentLink
-            href="https://forms.gle/ZgPqo7pKyWXW3m3c7"
-            title="Pago si no has reservado"
-            subtitle="Formulario de pago · sin reserva previa"
-            variant="outline"
-          />
-
           {galaPaymentOpen && (
             <PaymentLink
               href="https://forms.gle/SADnxrsj7F8QnJEN9"
@@ -127,6 +113,13 @@ export default function Home() {
             </span>
             <span className="h-px flex-1 bg-[#F7F5F0]/14" />
           </div>
+
+          <PaymentLink
+            href="https://forms.gle/JRNBifc4Kr9Aai8m8"
+            title="Paquete académico"
+            subtitle="Formulario de inscripción"
+            variant="light"
+          />
 
           <PaymentLink
             href="https://forms.gle/fAwRKzH6X1amKxQZ6"
