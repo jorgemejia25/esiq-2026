@@ -129,13 +129,6 @@ export default function Home() {
           />
 
           <PaymentLink
-            href="https://forms.gle/fAwRKzH6X1amKxQZ6"
-            title="Rifa curso LEAN MANUFECTURING"
-            subtitle="Formulario de participación"
-            variant="gold"
-          />
-
-          <PaymentLink
             href="https://forms.gle/frtpVdGg2ogKEHBn6"
             title="Paquete chapín"
             subtitle="(Universidades Privadas)"
