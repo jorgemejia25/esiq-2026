@@ -122,6 +122,13 @@ export default function Home() {
           />
 
           <PaymentLink
+            href="https://docs.google.com/forms/d/e/1FAIpQLSesX3CuHnx-xa0AhsswKIQ027c1jc_hx07Xeen7bLghn9ZjTg/viewform?usp=sharing&ouid=108625346249491676752"
+            title="Visita Pre-Congreso DARSA"
+            subtitle="Formulario de registro"
+            variant="outline"
+          />
+
+          <PaymentLink
             href="https://forms.gle/fAwRKzH6X1amKxQZ6"
             title="Rifa curso LEAN MANUFECTURING"
             subtitle="Formulario de participación"
